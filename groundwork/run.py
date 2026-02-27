@@ -26,9 +26,9 @@ import argparse
 
 INDUSTRY_MAP = {
     "legal":      "groundwork.industries.legal.LegalHealthCheck",
+    "tech":       "groundwork.industries.tech.TechHealthCheck",
     # "healthcare": "groundwork.industries.healthcare.HealthcareHealthCheck",
     # "financial":  "groundwork.industries.financial.FinancialHealthCheck",
-    # "tech":       "groundwork.industries.tech.TechHealthCheck",
 }
 
 

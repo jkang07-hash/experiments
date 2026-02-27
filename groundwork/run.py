@@ -25,10 +25,10 @@ import argparse
 # Nothing else needs to change.
 
 INDUSTRY_MAP = {
+    "financial":  "groundwork.industries.financial.FinancialHealthCheck",
+    "healthcare": "groundwork.industries.healthcare.HealthcareHealthCheck",
     "legal":      "groundwork.industries.legal.LegalHealthCheck",
     "tech":       "groundwork.industries.tech.TechHealthCheck",
-    # "healthcare": "groundwork.industries.healthcare.HealthcareHealthCheck",
-    # "financial":  "groundwork.industries.financial.FinancialHealthCheck",
 }
 
 
